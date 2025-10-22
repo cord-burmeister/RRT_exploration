@@ -5,6 +5,10 @@ Algorithm is heavily inspired by the [paper](https://ieeexplore.ieee.org/documen
 
 This project is just an addition to my Mobile Robot Programming experiments and shouldn't be used as a state-of-the-art exploration algorithm for the real system.
 
+It was tested on Ubuntu 22.04, with ROS2 Humble and Gazebo Classic.
+
+*Warning*: Gazebo Classic is outdated. This project may be moved to the Gazebo Fortress/Harmonic in the future.
+
 ## Dependencies
 This project relies on external software:
 * `nanoflann` C++11 header-only [library](https://github.com/jlblancoc/nanoflann/tree/master) for building KD-Trees. The code is already contained in the project.
